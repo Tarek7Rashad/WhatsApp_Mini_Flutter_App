@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "813884586804",
+    "project_id": "socialappamit",
+    "storage_bucket": "socialappamit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813884586804:android:9f1b890e86acf6cc178361",
+        "android_client_info": {
+          "package_name": "com.example.firebase_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLxS60tMk0CMXViAC7ccvm992S9h8VJ5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
