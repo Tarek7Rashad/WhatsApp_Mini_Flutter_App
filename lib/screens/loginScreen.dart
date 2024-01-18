@@ -168,11 +168,11 @@ class _LoginScreenState extends State<LoginScreen> {
                                       email: loginScreenEmailController.text,
                                       password:
                                           loginScreenPasswordController.text);
+                                  uId = loginScreenEmailController.text;
 
                                   Navigator.of(context).pushReplacementNamed(
                                       SocialLayout.id,
-                                      arguments:
-                                          loginScreenEmailController.text);
+                                      arguments: email);
                                 } else {
                                   loginAutovalidateMode =
                                       AutovalidateMode.always;

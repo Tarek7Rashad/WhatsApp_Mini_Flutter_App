@@ -36,12 +36,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
             for (var i = 0; i < users.length; i++) {
               if (users[i].email == uId) {
                 name = users[i].name;
-              
+                // log(' users list email ${users[i].email}');
               }
-              // else if (users[i].email == loginScreenEmailController.text) {
-              //   uId = loginScreenEmailController.text;
-              //   name = users[i].name;
-              // }
             }
           }
           return BlocConsumer<LoginAndRegisterCubit, LoginAndRegisterStates>(
@@ -84,7 +80,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
                                         horizontal: 16.0,
                                       ),
                                       child: InkWell(
-                                        onTap: () {},
+                                        onTap: () {
+                                          // log(' login ${email}');
+                                          // log('uid ${uId}');
+                                        },
                                         child: CircleAvatar(
                                           radius: 30,
                                           backgroundColor:
